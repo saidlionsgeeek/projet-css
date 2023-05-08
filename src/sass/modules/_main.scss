@@ -156,3 +156,25 @@ main{
         }
     }
     // section5
+    .text-contact{
+        font-family: courgette;
+    text-align: center;
+    padding-top: 3rem;
+    margin-bottom: -1rem;
+    span{
+        color:rgb(195, 40, 59);
+        font-size: 60px;
+    }
+    }
+    .border-custom{
+        border-bottom: 2px solid white;
+    }
+    .width-contact{
+        width:500px
+    }
+    @media (min-width:319px) and (max-width:550px) {
+        .width-contact{
+            width:300px
+        }
+        
+    }
