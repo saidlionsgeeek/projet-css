@@ -1,3 +1,8 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
 main{
     background-image: url(../images/main_bg.jpg);
     height: auto;
@@ -55,10 +60,14 @@ main{
 // section3
 .bg-contact{
     background-image: url(../../../public/images/book_table_bg.jpg);
+    background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     width: 57%;
     
+    
 } 
+
 .bg-banner{
         border: 5px solid rgb(225, 224, 224);
         border-radius: 20px;
@@ -68,7 +77,7 @@ main{
         color: white;
         background-color: rgb(196, 45, 64);
         text-align: center;
-        width: 350px;
+        width: 420px;
         height: 60px;
         border-radius: 10px;
         margin-top: -30px;
@@ -91,6 +100,13 @@ main{
         margin-bottom: 4rem;
     }
     @media (min-width:319px) and (max-width:650px) {
+        .bg-contact{
+            background-image: url(../../../public/images/book_table_bg.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width: 80%;
+        } 
         .bg-banner{
             border: 1px solid rgb(225, 224, 224);
             border-radius: 20px;
@@ -123,3 +139,20 @@ main{
             margin-bottom: 4rem;
         }
     }
+    // section4
+    .bg-testimo{
+        background-image: url(../images/testimonials_background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; 
+        .text-testimo{
+            color: white;
+            text-align: center;
+            font-family: courgette;
+            padding-top: 100px;
+            span{
+                color:rgb(196, 45, 64) ;
+            }
+        }
+    }
+    // section5
