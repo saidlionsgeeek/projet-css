@@ -5,6 +5,8 @@ main{
 .text-story{
     font-family: courgette;
     text-align: center;
+    padding-top: 3rem;
+    margin-bottom: -1rem;
     span{
         color:rgb(195, 40, 59);
         font-size: 60px;
@@ -29,4 +31,9 @@ main{
     position: absolute;
     right: 0;
     bottom:0;
+}
+.deco-line{
+    margin-bottom: 2rem;
+    text-align: center;
+   
 }
