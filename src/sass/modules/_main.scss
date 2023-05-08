@@ -37,3 +37,18 @@ main{
     text-align: center;
    
 }
+// section2
+
+.bg-chef{
+    background-color: black;
+    .title-chef{
+        text-align: center;
+        font-family: courgette;
+        color: white;
+        padding-top: 2rem;
+        span{
+            color: rgb(195, 40, 59);
+        }
+    }
+
+}

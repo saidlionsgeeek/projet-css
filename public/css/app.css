@@ -10898,4 +10898,17 @@ main {
   text-align: center;
 }
 
+.bg-chef {
+  background-color: black;
+}
+.bg-chef .title-chef {
+  text-align: center;
+  font-family: courgette;
+  color: white;
+  padding-top: 2rem;
+}
+.bg-chef .title-chef span {
+  color: rgb(195, 40, 59);
+}
+
 /*# sourceMappingURL=app.css.map */
