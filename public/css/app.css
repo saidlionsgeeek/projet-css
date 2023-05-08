@@ -10721,11 +10721,11 @@ textarea.form-control-lg {
   }
 }
 @font-face {
-  font-family: courgette;
+  font-family: "courgette";
   src: url("../../public/fonts/Courgette-Regular.ttf");
 }
 @font-face {
-  font-family: roboto-light;
+  font-family: "roboto-light";
   src: url("../../public/fonts/Roboto-Light.ttf");
 }
 .navbar-index {
@@ -10852,6 +10852,43 @@ textarea.form-control-lg {
     height: 131.2vh;
     background-color: black;
   }
+}
+main {
+  background-image: url(../images/main_bg.jpg);
+  height: auto;
+}
+
+.text-story {
+  font-family: courgette;
+  text-align: center;
+}
+.text-story span {
+  color: rgb(195, 40, 59);
+  font-size: 60px;
+}
+
+.top-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.top-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.bottom-left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.bottom-right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 /*# sourceMappingURL=app.css.map */

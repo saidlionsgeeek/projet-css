@@ -1,0 +1,32 @@
+main{
+    background-image: url(../images/main_bg.jpg);
+    height: auto;
+}
+.text-story{
+    font-family: courgette;
+    text-align: center;
+    span{
+        color:rgb(195, 40, 59);
+        font-size: 60px;
+    }
+}
+.top-left{
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.top-right{
+    position: absolute;
+    right: 0;
+    top:0;
+}
+.bottom-left{
+    position: absolute;
+    left: 0;
+    bottom:0;
+}
+.bottom-right{
+    position: absolute;
+    right: 0;
+    bottom:0;
+}
