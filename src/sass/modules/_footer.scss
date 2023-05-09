@@ -1,0 +1,43 @@
+.footer-border{
+    background-image: url(../../../public/images/footer_bottom_decoration_img.png);
+    height: 1.5vh;
+    background-color: black;
+}
+.bg-footer{
+    background-image: url(../images/footer_background.jpg);
+    
+}
+.costum-pill{
+    border: 2px solid white;
+    border-radius: 40px;
+    background-color: rgb(220, 53, 69);
+    width: auto;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.about{
+
+width: 400px;
+
+}
+.bg-red{
+    background-color: rgb(220, 53, 69);
+    height: 10vh;
+}
+@media (min-width:320px) and (max-width:950px) {
+    .bg-footer{
+        background-image: url(../images/footer_background.jpg);
+        height: 130vh;
+        
+        
+    }
+    .about{
+
+        width: auto;
+        
+        }
+}
