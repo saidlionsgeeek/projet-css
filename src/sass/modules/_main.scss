@@ -178,3 +178,43 @@ main{
         }
         
     }
+    // tabs
+    .tabs-fonts{
+        width: 150px;
+    }
+    .groupe-itmes{
+        width: 150px;
+        height: 100px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        text-align: center;
+    }
+    .para-menu{
+        font-size: small;
+        padding-top: 0.5rem;
+        padding-bottom: 2rem;
+        color: black;
+        font-family: courgette;
+    }
+    .groupe-itmes:hover{
+        border-right: 5px solid rgb(195, 40, 59);
+    }
+    .groupe-itmes i{
+        padding-top: 1rem;
+        color: #cccccc; 
+        font-size: 50px;
+    }
+    .groupe-itmes i:hover{
+        color:  rgb(195, 40, 59);
+    }
+    .menu-image{
+        border: 5px solid rgb(168, 168, 168);
+        border-radius: 50%;
+    }
+    .border-menu{
+        border-bottom: 2px dotted $gray;
+        
+    }

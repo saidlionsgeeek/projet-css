@@ -1,2 +1,11 @@
 @import "../../node_modules/bootstrap/scss/functions";
 @import "../../node_modules/bootstrap/scss/variables";
+
+$gray: rgb(239, 239, 239);
+
+
+$custom-colors:(
+"gray": $gray,
+
+);
+$theme-colors : map-merge($theme-colors , $custom-colors);
