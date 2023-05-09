@@ -10815,7 +10815,7 @@ textarea.form-control-lg {
   src: url("../../public/fonts/Roboto-Light.ttf");
 }
 .footer-border {
-  background-image: url(../../../public/images/footer_bottom_decoration_img.png);
+  background-image: url(../images/footer_bottom_decoration_img.png);
   height: 1.5vh;
   background-color: black;
 }
