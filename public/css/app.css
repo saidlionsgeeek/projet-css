@@ -10849,7 +10849,7 @@ textarea.form-control-lg {
 @media (min-width: 320px) and (max-width: 950px) {
   .bg-footer {
     background-image: url(../images/footer_background.jpg);
-    height: 113vh;
+    height: 143vh;
   }
   .about {
     width: auto;
@@ -10907,7 +10907,7 @@ textarea.form-control-lg {
 @media (max-width: 1250px) {
   .img-darken {
     background-image: url(../images/banner1.jpg);
-    min-height: 130vh;
+    min-height: 140vh;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.8);
     background-blend-mode: darken;
@@ -10915,7 +10915,7 @@ textarea.form-control-lg {
   }
   .img-darken-2 {
     background-image: url(../images/blog_img1.jpg);
-    min-height: 130vh;
+    min-height: 140vh;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.8);
     background-blend-mode: darken;
