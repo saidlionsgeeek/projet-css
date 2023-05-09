@@ -10849,7 +10849,7 @@ textarea.form-control-lg {
 @media (min-width: 320px) and (max-width: 950px) {
   .bg-footer {
     background-image: url(../images/footer_background.jpg);
-    height: 130vh;
+    height: 113vh;
   }
   .about {
     width: auto;
@@ -10904,7 +10904,7 @@ textarea.form-control-lg {
   background-blend-mode: darken;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1250px) {
   .img-darken {
     background-image: url(../images/banner1.jpg);
     min-height: 130vh;
@@ -10945,11 +10945,11 @@ textarea.form-control-lg {
   min-height: 50px;
 }
 
-@media (max-width: 425px) {
+@media (min-width: 319px) and (max-width: 1200px) {
   .text-presentation {
     color: white;
     position: absolute;
-    top: 35%;
+    top: 45%;
     z-index: 0.5;
     left: 50%;
     transform: translate(-50%);
@@ -10968,18 +10968,12 @@ textarea.form-control-lg {
   }
 }
 .p {
+  margin-top: -1px;
   background-image: url(../images/bottom_decoration_img.png);
-  height: 101.2vh;
+  height: 1.4vh;
   background-color: black;
 }
 
-@media (max-width: 950px) {
-  .p {
-    background-image: url(../images/bottom_decoration_img.png);
-    height: 131.2vh;
-    background-color: black;
-  }
-}
 * {
   padding: 0;
   margin: 0;
@@ -10996,10 +10990,18 @@ main {
   text-align: center;
   padding-top: 3rem;
   margin-bottom: -1rem;
+  transition: 1s;
 }
 .text-story span {
   color: rgb(195, 40, 59);
   font-size: 60px;
+}
+
+.text-story:hover {
+  color: rgb(195, 40, 59);
+}
+.text-story:hover span {
+  color: black;
 }
 
 .top-left {
@@ -11039,11 +11041,38 @@ main {
   font-family: courgette;
   color: white;
   padding-top: 2rem;
+  transition: 1s;
 }
 .bg-chef .title-chef span {
   color: rgb(195, 40, 59);
 }
 
+.title-chef:hover {
+  color: rgb(195, 40, 59);
+}
+.title-chef:hover span {
+  color: #fff;
+}
+
+.chef-hover {
+  opacity: 0.7;
+  transition: 0.7s;
+}
+
+.chef-hover:hover {
+  opacity: 1;
+  animation: chef-hover 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes chef-hover {
+  0% {
+    transform: translateY(0px) translateY(0px);
+  }
+  100% {
+    transform: translateY(-20px) translateY(0px);
+  }
+}
 .bg-contact {
   background-image: url(../../../public/images/book_table_bg.jpg);
   background-repeat: no-repeat;
@@ -11072,6 +11101,24 @@ main {
   padding-top: 5px;
 }
 .para-banner span {
+  font-size: 30px;
+}
+
+.para-banner:hover {
+  color: white;
+  background-color: rgb(196, 45, 64);
+  text-align: center;
+  width: 420px;
+  height: 60px;
+  border-radius: 10px;
+  margin-top: -65px;
+  margin-left: 15px;
+  z-index: 12;
+  position: relative;
+  padding-top: 5px;
+  transition: 1.5s;
+}
+.para-banner:hover span {
   font-size: 30px;
 }
 
@@ -11111,8 +11158,25 @@ main {
     z-index: 12;
     position: relative;
     padding-top: 5px;
+    transition: 1.5s;
   }
   .para-banner span {
+    font-size: 20px;
+  }
+  .para-banner:hover {
+    color: white;
+    background-color: rgb(196, 45, 64);
+    text-align: center;
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: -60px;
+    margin-left: 15px;
+    z-index: 12;
+    position: relative;
+    padding-top: 5px;
+  }
+  .para-banner:hover span {
     font-size: 20px;
   }
   .text-para {

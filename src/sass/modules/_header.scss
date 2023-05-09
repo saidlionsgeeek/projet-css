@@ -51,7 +51,8 @@
     background-blend-mode: darken;
 }
 
-@media (max-width:950px) {
+@media (max-width:1250px) {
+
     .img-darken {
         background-image: url(../images/banner1.jpg);
         min-height: 130vh;
@@ -100,11 +101,11 @@
     }
 }
 
-@media (max-width:425px) {
+@media (min-width:319px) and (max-width:1200px) {
     .text-presentation {
         color: white;
         position: absolute;
-        top: 35%;
+        top: 45%;
         z-index: 0.5;
         left: 50%;
         transform: translate(-50%);
@@ -129,15 +130,9 @@
 }
 
 .p {
+    margin-top: -1px;
     background-image: url(../images/bottom_decoration_img.png);
-    height: 101.2vh;
+    height: 1.4vh;
     background-color: black;
 }
 
-@media (max-width:950px) {
-    .p {
-        background-image: url(../images/bottom_decoration_img.png);
-        height: 131.2vh;
-        background-color: black;
-    }
-}

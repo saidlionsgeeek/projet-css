@@ -7,16 +7,28 @@ main{
     background-image: url(../images/main_bg.jpg);
     height: auto;
 }
+// section1
 .text-story{
     font-family: courgette;
     text-align: center;
     padding-top: 3rem;
     margin-bottom: -1rem;
+    transition: 1s;
     span{
         color:rgb(195, 40, 59);
         font-size: 60px;
     }
 }
+.text-story:hover{
+    
+    color: rgb(195, 40, 59);
+    span{
+        color:black;
+        
+    }
+
+}
+
 .top-left{
     position: absolute;
     left: 0;
@@ -51,12 +63,41 @@ main{
         font-family: courgette;
         color: white;
         padding-top: 2rem;
+        transition: 1s;
         span{
             color: rgb(195, 40, 59);
         }
     }
 
 }
+.title-chef:hover{
+    
+        color: rgb(195, 40, 59);
+        span{
+            color: #fff;
+        }
+    
+}
+
+.chef-hover{
+    opacity: 0.7;
+    transition: 0.7s;
+    
+}
+.chef-hover:hover{
+    opacity: 1;
+    animation: chef-hover 3s  ;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes chef-hover {
+    0% {transform:translateY(0px) translateY(0px);}
+    100% {transform:translateY(-20px) translateY(0px);}
+}
+@media (min-width:319px) and (max-width:650px) {
+    
+}
+
 // section3
 .bg-contact{
     background-image: url(../../../public/images/book_table_bg.jpg);
@@ -90,6 +131,24 @@ main{
             font-size: 30px;
         }
     }
+    .para-banner:hover{
+        color: white;
+        background-color: rgb(196, 45, 64);
+        text-align: center;
+        width: 420px;
+        height: 60px;
+        border-radius: 10px;
+        margin-top: -65px;
+        margin-left: 15px;
+        z-index: 12;
+        position: relative;
+        padding-top: 5px;
+        transition: 1.5s;
+        span{
+            font-size: 30px;
+        }
+    }
+
     .text-para{
         width: 330px;
         margin-left: 50px;
@@ -124,10 +183,29 @@ main{
             z-index: 12;
             position: relative;
             padding-top: 5px;
+            transition: 1.5s;
     
             span{
                 font-size: 20px;
             }
+        }
+       
+        .para-banner:hover{
+            color: white;
+            background-color: rgb(196, 45, 64);
+            text-align: center;
+            width: 250px;
+            height: 60px;
+            border-radius: 10px;
+            margin-top: -60px;
+            margin-left: 15px;
+            z-index: 12;
+            position: relative;
+            padding-top: 5px;
+            span{
+                font-size: 20px;
+            }
+
         }
         .text-para{
             width: 220px;
@@ -181,6 +259,7 @@ main{
     // tabs
     .tabs-fonts{
         width: 150px;
+        
     }
     .groupe-itmes{
         width: 150px;
