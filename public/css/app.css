@@ -11074,7 +11074,7 @@ main {
   }
 }
 .bg-contact {
-  background-image: url(../../../public/images/book_table_bg.jpg);
+  background-image: url(../images/book_table_bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -11135,7 +11135,7 @@ main {
 
 @media (min-width: 319px) and (max-width: 650px) {
   .bg-contact {
-    background-image: url(../../../public/images/book_table_bg.jpg);
+    background-image: url(../images/book_table_bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
